@@ -34,3 +34,17 @@ This repository contains my structured preparation for mastering **Data Structur
 
 (More topics will be added consistently.)
 
+---
+
+## 🛠️ Languages Used
+
+- Java (Primary Language)
+- C (Fundamentals Practice)
+
+---
+
+## 📊 Practice Platforms
+
+Problems are solved from:
+
+- LeetCode  
