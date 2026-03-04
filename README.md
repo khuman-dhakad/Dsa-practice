@@ -16,3 +16,21 @@ This repository contains my structured preparation for mastering **Data Structur
 
 ---
 
+## 🗂️ Topics Covered
+
+- ✅ Arrays  
+- ✅ Strings  
+- ✅ Recursion  
+- ✅ Linked List  
+- ✅ Stack  
+- ✅ Queue  
+- ✅ Searching  
+- ✅ Sorting  
+- ✅ Binary Search  
+- ✅ Trees  
+- ✅ Graphs  
+- ✅ Dynamic Programming  
+- ✅ Greedy Algorithms  
+
+(More topics will be added consistently.)
+
