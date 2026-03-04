@@ -1,1 +1,18 @@
-# Dsa-practice
+# 🚀 Data Structures & Algorithms Practice
+
+Welcome to my DSA Practice Repository!
+
+This repository contains my structured preparation for mastering **Data Structures and Algorithms** for coding interviews, competitive programming, and technical interviews at top companies.
+
+---
+
+## 📌 About This Repository
+
+- 🧠 Focused on strong problem-solving skills
+- 💻 Clean and optimized code implementations
+- 📈 Consistent daily practice
+- 🎯 Targeting product-based companies & top MNCs
+- 🔁 Regular revision and improvement
+
+---
+
