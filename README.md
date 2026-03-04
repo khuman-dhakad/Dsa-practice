@@ -48,3 +48,23 @@ This repository contains my structured preparation for mastering **Data Structur
 Problems are solved from:
 
 - LeetCode  
+
+---
+
+## 📅 My Practice Strategy
+
+- Solve problems daily
+- Focus on understanding patterns
+- Improve time & space complexity
+- Revise previously solved problems
+- Track consistency and growth
+
+---
+
+## 🎯 Goal
+
+To build strong DSA foundations, crack technical interviews, and become placement-ready for top tech companies.
+
+---
+
+⭐ If you find this repository helpful, feel free to star it!
