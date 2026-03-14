@@ -5,35 +5,32 @@ public class EvenCount {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter the Size of an Array:");
+        System.out.print("Enter the Size of an Array: ");
         int size = sc.nextInt();
 
         if(size <= 0){
-    System.out.println("Invalid size!");
-    sc.close();
-    return;
-}
-
-        
+            System.out.println("Invalid size!");
+            sc.close();
+            return;
+        }
 
         int[] arr = new int[size];
 
         for (int i = 0; i < arr.length; i++) {
-            System.out.print("Enter Element Number " + (1 + i) + " :");
+            System.out.print("Enter Element Number " + (i + 1) + " : ");
             arr[i] = sc.nextInt();
         }
 
         int count = 0;
 
         for (int i = 0; i < arr.length; i++) {
-
             if (arr[i] % 2 == 0) {
                 count++;
             }
-
         }
 
-        System.out.print("Even numbers count = " + count);
+        System.out.println("Even numbers count = " + count);
+
         sc.close();
     }
 }
