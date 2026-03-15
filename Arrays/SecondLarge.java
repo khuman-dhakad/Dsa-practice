@@ -14,13 +14,15 @@ public class SecondLarge {
         }
 
         int[] arr = new int[size];
-
+        //Loop for taking input
         for (int i = 0; i < arr.length; i++) {
             System.out.print("Enter Element Number " + (i + 1) + " :");
             arr[i] = sc.nextInt();
         }
         int large = Integer.MIN_VALUE;
         int secondLarge = Integer.MIN_VALUE;
+
+                //Loop for finding second large element
 
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] > large) {
