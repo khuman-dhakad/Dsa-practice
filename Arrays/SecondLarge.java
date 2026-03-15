@@ -7,6 +7,12 @@ public class SecondLarge {
         System.out.print("Enter the size of an Array: ");
         int size = sc.nextInt();
 
+        if (size < 2) {
+            System.out.println("Enter Valid Size(At Least 2 Or More)");
+            sc.close();
+            return;
+        }
+
         int[] arr = new int[size];
 
         for (int i = 0; i < arr.length; i++) {
