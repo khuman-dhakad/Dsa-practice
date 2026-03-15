@@ -8,7 +8,7 @@ public class EvenCount {
         System.out.print("Enter the Size of an Array: ");
         int size = sc.nextInt();
 
-        if(size <= 0){
+        if (size <= 0) {
             System.out.println("Invalid size!");
             sc.close();
             return;
