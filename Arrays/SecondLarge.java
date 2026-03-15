@@ -37,7 +37,7 @@ public class SecondLarge {
             System.out.println("Second Large Number Not Avaiable!");
         }
         else{
-            System.out.print("Second Large Number = " + secondLarge);
+            System.out.print("Second Largest Number = " + secondLarge);
         }
         sc.close();
     }
