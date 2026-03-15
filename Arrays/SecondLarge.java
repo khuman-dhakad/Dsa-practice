@@ -29,8 +29,14 @@ public class SecondLarge {
             } else if (secondLarge < arr[i] && arr[i] != large) {
                 secondLarge = arr[i];
             }
+            
         }
-        System.out.print("Second Large Number = " + secondLarge);
+        if(secondLarge==Integer.MIN_VALUE){
+            System.out.println("Second Large Number Not Avaiable!");
+        }
+        else{
+            System.out.print("Second Large Number = " + secondLarge);
+        }
         sc.close();
     }
 }
