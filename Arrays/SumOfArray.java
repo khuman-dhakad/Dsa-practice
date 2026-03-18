@@ -21,10 +21,13 @@ public class SumOfArray {
         }
 
         int sum = 0;
+         System.out.print("Element Of Array Is: ");
         for (int i = 0; i < arr.length; i++) {
+            System.out.print(+arr[i]+" ");
             sum = sum + arr[i];
         }
-        System.out.println("The Sum of the Array =" + sum);
+        System.out.println("\nThe Sum of the Array =" + sum);
+        
         sc.close();
     }
 }
