@@ -15,13 +15,14 @@ public class SumOfArray {
         int[] arr = new int[size];
 
         int sum = 0;
+        //For taking input of elements and calculte sume of elements
         for (int i = 0; i < arr.length; i++) {
             System.out.print("Enter Element Number " + (i + 1) + " :");
             arr[i] = sc.nextInt();
             sum += arr[i];
 
         }
-
+         //For print array elements
         System.out.print("Element Of Array Is: ");
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
