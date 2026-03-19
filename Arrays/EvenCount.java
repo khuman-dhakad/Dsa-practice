@@ -16,18 +16,14 @@ public class EvenCount {
 
         int[] arr = new int[size];
         int count = 0;
-
+        // For taking input and count even numbers
         for (int i = 0; i < arr.length; i++) {
             System.out.print("Enter Element Number " + (i + 1) + " : ");
             arr[i] = sc.nextInt();
-            if(arr[i]%2==0){
+            if (arr[i] % 2 == 0) {
                 count++;
             }
         }
-
-
-      
-
         System.out.println("Even numbers count = " + count);
 
         sc.close();
