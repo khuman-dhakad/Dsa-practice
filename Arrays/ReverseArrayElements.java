@@ -15,7 +15,7 @@ public class ReverseArrayElements{
 
 
     int []arr=new int[size];
-
+    //For taking array input from user
     for(int i=0;i<arr.length;i++){
       System.out.print("Enter Element Number "+(i+1)+ " :");
       arr[i]=sc.nextInt();
@@ -25,7 +25,7 @@ public class ReverseArrayElements{
     int end = arr.length-1;
 
     
-
+    //For reversing array elements
     while(start<end){
       int temp = arr[start];
       arr[start]=arr[end];
@@ -35,7 +35,7 @@ public class ReverseArrayElements{
       end--;
     }
       System.out.print("Reverse Order of Array Is : ");
-
+     //For print array element after reverse
     for(int i=0;i<arr.length;i++){
       System.out.print(arr[i]+" ");
     }
