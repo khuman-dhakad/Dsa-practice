@@ -6,7 +6,7 @@ public class ReverseArray{
 
     System.out.print("Enter the Size of an Array:");
     int size = sc.nextInt();
-
+    //For size case handling
     if(size<=0){
             System.out.print("Enter Valid Size!");
             sc.close();
