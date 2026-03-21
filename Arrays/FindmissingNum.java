@@ -14,6 +14,17 @@ public class FindMissingNum {
             arr[i] = sc.nextInt();
         }
 
+        for (int i = 0; i <= n; i++) {
+
+            boolean found = false;
+
+            for (int j = 0; j < n; j++) {
+                if (arr[j] == i) {
+                    found = true;
+                    break;
+                }
+            }
+        }
 
         sc.close();
     }
