@@ -24,6 +24,10 @@ public class FindMissingNum {
                     break;
                 }
             }
+            if (!found) {
+                System.out.println("Missing number = " + i);
+                break;
+            }
         }
 
         sc.close();
