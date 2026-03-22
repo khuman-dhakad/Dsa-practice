@@ -16,6 +16,14 @@ public class OddCount {
             System.out.print("Enter element " + (i + 1) + ": ");
             arr[i] = sc.nextInt();
         }
+
+        int count = 0;
+
+        for (int i = 0; i < size; i++) {
+            if (arr[i] % 2 != 0) {
+                count++;
+            }
+        }
         sc.close();
     }
 }
