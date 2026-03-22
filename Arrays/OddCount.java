@@ -24,6 +24,9 @@ public class OddCount {
                 count++;
             }
         }
+
+        System.out.println("Odd numbers count = " + count);
+
         sc.close();
     }
 }
