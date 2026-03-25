@@ -13,6 +13,20 @@ public class DuplicateNumber {
         for(int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
+
+        int duplicate = -1;
+
+        for(int i = 0; i < n; i++) {
+            for(int j = i + 1; j < n; j++) {
+                if(arr[i] == arr[j]) {
+                    duplicate = arr[i];
+                    break;
+                }
+            }
+            if(duplicate != -1) {
+                break;
+            }
+        }
             sc.close();
     }
 }
