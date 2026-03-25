@@ -27,6 +27,11 @@ public class DuplicateNumber {
                 break;
             }
         }
+         if(duplicate != -1) {
+            System.out.println("Duplicate number is: " + duplicate);
+        } else {
+            System.out.println("No duplicate found");
+        }
             sc.close();
     }
 }
