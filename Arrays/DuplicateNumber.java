@@ -4,6 +4,12 @@ public class DuplicateNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        sc.close();
+        System.out.print("Enter size: ");
+        int n = sc.nextInt();
+
+        int[] arr = new int[n];
+
+            sc.close();
+        
     }
 }
