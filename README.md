@@ -17,3 +17,47 @@ I am consistently practicing problems to strengthen my **problem-solving skills,
 
 ---
 
+## 📌 About This Repository
+
+This repository is dedicated to:
+
+* 🧠 Strengthening problem-solving ability
+* 💻 Writing clean and optimized code
+* 📈 Practicing DSA consistently
+* 🎯 Preparing for coding interviews
+* 🔁 Revising important concepts
+
+---
+
+## 🧠 DSA Patterns Covered
+
+* Two Pointer
+* Sliding Window
+* Hashing
+* Prefix Sum
+* Recursion & Backtracking
+* Sorting & Searching
+* Binary Search
+
+---
+
+## 🗂️ DSA Topics Covered
+
+| Topic               | Status        |
+| ------------------- | ------------- |
+| Arrays              | ✅ Done        |
+| Strings             | ✅ Done        |
+| Recursion           | ✅ Done        |
+| Linked List         | ⏳ In Progress |
+| Stack               | ⏳ In Progress |
+| Queue               | ⏳ In Progress |
+| Searching           | ⏳ In Progress |
+| Sorting             | ⏳ In Progress |
+| Binary Search       | ⏳ In Progress |
+| Trees               | ⏳ In Progress |
+| Graphs              | ⏳ In Progress |
+| Dynamic Programming | ⏳ In Progress |
+| Greedy Algorithms   | ⏳ In Progress |
+
+---
+
