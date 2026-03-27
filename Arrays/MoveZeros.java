@@ -9,6 +9,11 @@ public class MoveZeros {
         int size = sc.nextInt();
 
         int[] arr = new int[size];
-        sc.close();
+
+        System.out.println("Enter elements:");
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = sc.nextInt();
+        }
+        sc.close(); 
     }
 }
