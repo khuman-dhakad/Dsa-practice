@@ -24,8 +24,14 @@ public class MoveZeros {
                 j++;
             }
         }
+
+        
         for (int i = j; i < arr.length; i++) {
             arr[i] = 0;
+        }
+        System.out.println("Array after moving zeros:");
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
         }
         sc.close(); 
     }
