@@ -24,6 +24,9 @@ public class MoveZeros {
                 j++;
             }
         }
+        for (int i = j; i < arr.length; i++) {
+            arr[i] = 0;
+        }
         sc.close(); 
     }
 }
