@@ -10,7 +10,7 @@ public class StockProfit {
 
         int[] arr = new int[size];
 
-        System.out.println("Enter stock prices:");
+        System.out.println("Enter your stock prices:");
         for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt();
         }
@@ -30,7 +30,7 @@ public class StockProfit {
                 }
             }
         }
-        System.out.println("Maximum Profit: " + maxProfit);
+        System.out.println("Maximum Profit Is: " + maxProfit);
         sc.close();
     }
 }
