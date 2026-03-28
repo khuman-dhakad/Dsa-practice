@@ -30,6 +30,7 @@ public class StockProfit {
                 }
             }
         }
+        System.out.println("Maximum Profit: " + maxProfit);
         sc.close();
     }
 }
