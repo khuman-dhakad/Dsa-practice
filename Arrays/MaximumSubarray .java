@@ -14,6 +14,9 @@ public class MaximumSubarray {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt();
         }
+
+        int currentSum = arr[0];
+        int maxSum = arr[0];
         sc.close();
     }
 }
