@@ -9,12 +9,12 @@ public class MaximumSubarray {
         int size = sc.nextInt();
 
         int[] arr = new int[size];
-
+        // For taking array input from user
         System.out.println("Enter elements:");
         for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt();
         }
-
+        // For Main logic (Kadane’s Algorithm)
         int currentSum = arr[0];
         int maxSum = arr[0];
 
@@ -30,7 +30,6 @@ public class MaximumSubarray {
                 maxSum = currentSum;
             }
         }
-
         System.out.println("Maximum Subarray Sum Is: " + maxSum);
         sc.close();
     }
