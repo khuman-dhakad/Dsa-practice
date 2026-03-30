@@ -31,6 +31,7 @@ public class MaximumSubarray {
             }
         }
 
+        System.out.println("Maximum Subarray Sum Is: " + maxSum);
         sc.close();
     }
 }
