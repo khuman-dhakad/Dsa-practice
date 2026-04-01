@@ -29,6 +29,7 @@ public class MajorityElement {
                 count = 1;
             }
         }
+        System.out.println("Majority Element: " + candidate);
         sc.close();
     }
 }
