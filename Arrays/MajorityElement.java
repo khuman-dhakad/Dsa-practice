@@ -8,12 +8,12 @@ public class MajorityElement {
         int n = sc.nextInt();
 
         int[] arr = new int[n];
-
+        // Taking input of elements
         System.out.println("Enter elements:");
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-
+        // Main logic - Boyer-Moore Algorithm
         int candidate = arr[0];
         int count = 1;
 
@@ -29,6 +29,7 @@ public class MajorityElement {
                 count = 1;
             }
         }
+        //Output
         System.out.println("Majority Element: " + candidate);
         sc.close();
     }
