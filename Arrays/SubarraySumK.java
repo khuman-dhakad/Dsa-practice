@@ -30,6 +30,10 @@ public class SubarraySumK {
                 count += map.get(prefixSum - k);
             }
 
+            map.put(prefixSum, map.getOrDefault(prefixSum, 0) + 1);
+        }
+
+
         sc.close();
     }
 }
