@@ -9,10 +9,13 @@ public class SubarraySumK {
 
         int[] arr = new int[n];
 
-        System.out.println("Enter Elements : ")
-        for(int i=0;i<arr.length;i++){
-            arr[i]=sc.nextInt();
+        System.out.println("Enter elements:");
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
         }
+
+        System.out.print("Enter k: ");
+        int k = sc.nextInt();
         sc.close();
     }
 }
