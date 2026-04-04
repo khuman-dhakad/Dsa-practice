@@ -23,6 +23,12 @@ public class SubarraySumK {
         int prefixSum = 0;
         int count = 0;
 
+        for (int i = 0; i < n; i++) {
+            prefixSum += arr[i];
+
+            if (map.containsKey(prefixSum - k)) {
+                count += map.get(prefixSum - k);
+            }
 
         sc.close();
     }
