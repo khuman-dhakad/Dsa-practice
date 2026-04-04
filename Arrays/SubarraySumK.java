@@ -33,6 +33,7 @@ public class SubarraySumK {
             map.put(prefixSum, map.getOrDefault(prefixSum, 0) + 1);
         }
 
+        System.out.println("Total subarrays: " + count);
 
         sc.close();
     }
