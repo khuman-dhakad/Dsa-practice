@@ -16,6 +16,14 @@ public class SubarraySumK {
 
         System.out.print("Enter k: ");
         int k = sc.nextInt();
+
+        HashMap<Integer, Integer> map = new HashMap<>();
+        map.put(0, 1); 
+
+        int prefixSum = 0;
+        int count = 0;
+
+
         sc.close();
     }
 }
