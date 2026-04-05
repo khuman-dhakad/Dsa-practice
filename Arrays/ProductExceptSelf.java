@@ -26,6 +26,12 @@ public class ProductExceptSelf {
             result[i] = result[i] * right;
             right *= arr[i];
         }
+
+        System.out.println("Result array:");
+        for (int num : result) {
+            System.out.print(num + " ");
+        }
+
         sc.close();
     }
 }
