@@ -19,6 +19,8 @@ public class LongestConsecutive {
             set.add(num);
         }
 
+        int longest = 0;
+
         sc.close();
     }
 }
