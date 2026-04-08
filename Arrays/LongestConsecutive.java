@@ -15,11 +15,31 @@ public class LongestConsecutive {
         }
 
         HashSet<Integer> set = new HashSet<>();
-        for (int num : arr) {
-            set.add(num);
+        for (int i = 0; i < n; i++) {
+            set.add(arr[i]);
         }
 
         int longest = 0;
+
+        for (int i = 0; i < n; i++) {
+            int num = arr[i];
+
+            if (!set.contains(num - 1)) {
+                int current = num;
+                int count = 1;
+
+                while (set.contains(current + 1)) {
+                    current++;
+                    count++;
+                }
+
+                if (count > longest) {
+                    longest = count;
+                }
+            }
+        }
+
+        System.out.println("Longest consecutive length: " + longest);
 
         sc.close();
     }
