@@ -27,6 +27,9 @@ public class JumpGame {
                 maxReach = i + arr[i];
             }
         }
+
+        System.out.println(true);
+
         sc.close();
     }
 }
