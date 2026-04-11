@@ -14,7 +14,19 @@ public class JumpGame {
             arr[i] = sc.nextInt();
         }
 
+        int maxReach = 0;
 
+        for (int i = 0; i < n; i++) {
+            if (i > maxReach) {
+                System.out.println(false);
+                sc.close();
+                return;
+            }
+
+            if (i + arr[i] > maxReach) {
+                maxReach = i + arr[i];
+            }
+        }
         sc.close();
     }
 }
