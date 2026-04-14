@@ -20,6 +20,13 @@ public class LeftRotateByOne {
             arr[i] = arr[i + 1];
         }
 
+        arr[n - 1] = first;
+
+        System.out.println("Array after rotation:");
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr[i] + " ");
+        }
+
         sc.close();
     }
 }
