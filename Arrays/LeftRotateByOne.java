@@ -14,6 +14,7 @@ public class LeftRotateByOne {
             arr[i] = sc.nextInt();
         }
 
+        int first = arr[0];
 
         sc.close();
     }
