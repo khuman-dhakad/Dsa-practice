@@ -5,6 +5,7 @@ public class CheckSorted {
 
         Scanner sc = new Scanner(System.in);
 
+        // Take input
         System.out.print("Enter size: ");
         int n = sc.nextInt();
 
@@ -15,6 +16,7 @@ public class CheckSorted {
             arr[i] = sc.nextInt();
         }
 
+        // Check if sorted
         boolean isSorted = true;
 
         for(int i = 0; i < n - 1; i++) {
@@ -24,6 +26,7 @@ public class CheckSorted {
             }
         }
 
+        // Print result
         System.out.println(isSorted);
         sc.close();
     }
