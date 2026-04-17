@@ -23,6 +23,8 @@ public class CheckSorted {
                 break;
             }
         }
+
+        System.out.println(isSorted);
         sc.close();
     }
 }
