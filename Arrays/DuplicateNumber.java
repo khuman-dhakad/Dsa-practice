@@ -4,7 +4,6 @@ import java.util.Arrays;
 public class DuplicateNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         // For taking size input from user
         System.out.print("Enter size: ");
         int n = sc.nextInt();
@@ -16,7 +15,6 @@ public class DuplicateNumber {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-
         // For sorting array (important for duplicate logic)
         Arrays.sort(arr);
 
@@ -37,6 +35,6 @@ public class DuplicateNumber {
             System.out.println("No duplicate found");
         }
 
-        sc.close(); // close scanner
+        sc.close(); 
     }
 }
