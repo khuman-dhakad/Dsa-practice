@@ -12,15 +12,10 @@ public class DuplicateNumber {
             arr[i] = sc.nextInt();
         }
         int duplicate = -1;
-        // For find duplicate number
-        for (int i = 0; i < n; i++) {
-            for (int j = i + 1; j < n; j++) {
-                if (arr[i] == arr[j]) {
-                    duplicate = arr[i];
-                    break;
-                }
-            }
-            if (duplicate != -1) {
+        
+          for (int i = 1; i < n; i++) {
+            if (arr[i] == arr[i - 1]) {
+                duplicate = arr[i];
                 break;
             }
         }
