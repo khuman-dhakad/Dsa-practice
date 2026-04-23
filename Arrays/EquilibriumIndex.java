@@ -5,6 +5,7 @@ public class EquilibriumIndex {
 
         Scanner sc = new Scanner(System.in);
 
+        // Take input
         System.out.print("Enter size: ");
         int n = sc.nextInt();
 
@@ -15,11 +16,13 @@ public class EquilibriumIndex {
             arr[i] = sc.nextInt();
         }
 
+        // Step 1: total sum
         int totalSum = 0;
         for(int i = 0; i < n; i++) {
             totalSum += arr[i];
         }
 
+        // Step 2: find equilibrium index
         int leftSum = 0;
         int index = -1;
 
@@ -34,6 +37,8 @@ public class EquilibriumIndex {
 
             leftSum += arr[i];
         }
+
+        // Output
         System.out.println(index);
     }
 }
