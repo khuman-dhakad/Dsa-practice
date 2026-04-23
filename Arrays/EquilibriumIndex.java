@@ -12,6 +12,11 @@ public class EquilibriumIndex {
         System.out.println("Enter elements:");
         for(int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
+            
+        }
+                int totalSum = 0;
+        for(int i = 0; i < n; i++) {
+            totalSum += arr[i];
         }
     }
 }
