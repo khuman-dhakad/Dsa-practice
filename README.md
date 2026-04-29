@@ -24,7 +24,7 @@ This repository is dedicated to:
 * 🧠 Strengthening problem-solving ability
 * 💻 Writing clean and optimized code
 * 📈 Practicing DSA consistently
-* 🎯 Preparing for coding interviews
+* 🎯 Preparing for coding interviews in MNC
 * 🔁 Revising important concepts
 
 ---
