@@ -28,6 +28,7 @@ public class SecondLarge {
             if (arr[i] > large) {
                 secondLarge = large;
                 large = arr[i];
+
             } else if (secondLarge < arr[i] && arr[i] != large) {
                 secondLarge = arr[i];
             }
