@@ -14,5 +14,18 @@ public class MaxConsecutiveOnes {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
+        int count = 0;
+        int maxCount = 0;
+
+        for (int i = 0; i < n; i++) {
+            if (arr[i] == 1) {
+                count++;
+            if (count > maxCount) {
+            maxCount = count;
+        }
+    } else {
+        count = 0;
+    }
+}
     }
 }
