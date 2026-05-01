@@ -27,5 +27,6 @@ public class MaxConsecutiveOnes {
         count = 0;
     }
 }
+    System.out.println("Maximum consecutive 1s = " + maxCount);
     }
 }
