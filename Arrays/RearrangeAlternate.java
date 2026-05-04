@@ -27,5 +27,19 @@ public class RearrangeAlternate {
                 neg[ne++] = arr[i];
             }
         }
+                int i = 0, j = 0, k = 0;
+
+        while(i < p && j < ne) {
+            arr[k++] = pos[i++];
+            arr[k++] = neg[j++];
+        }
+
+        while(i < p) {
+            arr[k++] = pos[i++];
+        }
+
+        while(j < ne) {
+            arr[k++] = neg[j++];
+        }
     }
 }
