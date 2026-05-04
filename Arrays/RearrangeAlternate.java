@@ -5,6 +5,7 @@ public class RearrangeAlternate {
 
         Scanner sc = new Scanner(System.in);
 
+        // Input
         System.out.print("Enter size: ");
         int n = sc.nextInt();
 
@@ -15,7 +16,8 @@ public class RearrangeAlternate {
             arr[i] = sc.nextInt();
         }
 
-                int[] pos = new int[n];
+        // Separate positives and negatives
+        int[] pos = new int[n];
         int[] neg = new int[n];
 
         int p = 0, ne = 0;
@@ -27,13 +29,17 @@ public class RearrangeAlternate {
                 neg[ne++] = arr[i];
             }
         }
-                int i = 0, j = 0, k = 0;
 
+        // Merge alternately
+        int i = 0, j = 0, k = 0;
+
+        // start with positive (as per question)
         while(i < p && j < ne) {
             arr[k++] = pos[i++];
             arr[k++] = neg[j++];
         }
 
+        // remaining elements (if any)
         while(i < p) {
             arr[k++] = pos[i++];
         }
@@ -41,9 +47,11 @@ public class RearrangeAlternate {
         while(j < ne) {
             arr[k++] = neg[j++];
         }
-                for(int x = 0; x < n; x++) {
+
+        // Output
+        System.out.println("Rearranged Array:");
+        for(int x = 0; x < n; x++) {
             System.out.print(arr[x] + " ");
         }
     }
 }
-    
