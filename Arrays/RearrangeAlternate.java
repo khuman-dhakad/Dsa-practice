@@ -41,5 +41,9 @@ public class RearrangeAlternate {
         while(j < ne) {
             arr[k++] = neg[j++];
         }
+                for(int x = 0; x < n; x++) {
+            System.out.print(arr[x] + " ");
+        }
     }
 }
+    
