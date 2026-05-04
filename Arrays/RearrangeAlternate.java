@@ -14,5 +14,18 @@ public class RearrangeAlternate {
         for(int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
+
+                int[] pos = new int[n];
+        int[] neg = new int[n];
+
+        int p = 0, ne = 0;
+
+        for(int i = 0; i < n; i++) {
+            if(arr[i] >= 0) {
+                pos[p++] = arr[i];
+            } else {
+                neg[ne++] = arr[i];
+            }
+        }
     }
 }
