@@ -30,5 +30,20 @@ public class NextPermutation {
             arr[i] = arr[j];
             arr[j] = temp;
         }
+                int start = i + 1;
+        int end = n - 1;
+
+        while(start < end) {
+            int temp = arr[start];
+            arr[start] = arr[end];
+            arr[end] = temp;
+            start++;
+            end--;
+        }
+
+        System.out.println("Next Permutation:");
+        for(int k = 0; k < n; k++) {
+            System.out.print(arr[k] + " ");
+        }
     }
 }
