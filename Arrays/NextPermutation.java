@@ -14,5 +14,10 @@ public class NextPermutation {
         for(int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
+                int i = n - 2;
+
+        while(i >= 0 && arr[i] >= arr[i + 1]) {
+            i--;
+        }
     }
 }
