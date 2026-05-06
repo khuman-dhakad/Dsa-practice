@@ -5,9 +5,11 @@ public class MergeIntervals {
 
         Scanner sc = new Scanner(System.in);
 
+        // Take number of intervals
         System.out.print("Enter number of intervals: ");
         int n = sc.nextInt();
 
+        // Create array and take input
         int[][] intervals = new int[n][2];
 
         System.out.println("Enter intervals:");
@@ -16,12 +18,16 @@ public class MergeIntervals {
             intervals[i][0] = sc.nextInt();
             intervals[i][1] = sc.nextInt();
         }
+
+        // Sort intervals by starting value
         Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
 
         List<int[]> result = new ArrayList<>();
 
         int[] current = intervals[0];
-                for(int i = 1; i < n; i++) {
+
+        // Merge overlapping intervals
+        for(int i = 1; i < n; i++) {
 
             if(intervals[i][0] <= current[1]) {
                 current[1] = Math.max(current[1], intervals[i][1]);
@@ -32,7 +38,9 @@ public class MergeIntervals {
         }
 
         result.add(current);
-                System.out.println("Merged Intervals:");
+
+        // Print merged intervals
+        System.out.println("Merged Intervals:");
 
         for(int[] interval : result) {
             System.out.println(interval[0] + " " + interval[1]);
