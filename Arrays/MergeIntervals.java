@@ -32,5 +32,10 @@ public class MergeIntervals {
         }
 
         result.add(current);
+                System.out.println("Merged Intervals:");
+
+        for(int[] interval : result) {
+            System.out.println(interval[0] + " " + interval[1]);
+        }
     }
 }
