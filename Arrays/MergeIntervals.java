@@ -7,7 +7,7 @@ public class MergeIntervals {
 
         System.out.print("Enter number of intervals: ");
         int n = sc.nextInt();
-        
+
         int[][] intervals = new int[n][2];
 
         System.out.println("Enter intervals:");
@@ -16,5 +16,10 @@ public class MergeIntervals {
             intervals[i][0] = sc.nextInt();
             intervals[i][1] = sc.nextInt();
         }
+        Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
+
+        List<int[]> result = new ArrayList<>();
+
+        int[] current = intervals[0];
     }
 }
