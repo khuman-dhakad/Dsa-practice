@@ -20,5 +20,18 @@ public class SetMatrixZeroes {
                 matrix[i][j] = sc.nextInt();
             }
         }
+        boolean[] rowZero = new boolean[rows];
+        boolean[] colZero = new boolean[cols];
+
+        for(int i = 0; i < rows; i++) {
+            for(int j = 0; j < cols; j++) {
+
+                if(matrix[i][j] == 0) {
+                    rowZero[i] = true;
+                    colZero[j] = true;
+                }
+            }
+        }
+        
     }
 }
