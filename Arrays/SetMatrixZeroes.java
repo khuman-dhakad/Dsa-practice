@@ -10,5 +10,15 @@ public class SetMatrixZeroes {
 
         System.out.print("Enter columns: ");
         int cols = sc.nextInt();
+
+        int[][] matrix = new int[rows][cols];
+
+        System.out.println("Enter matrix:");
+
+        for(int i = 0; i < rows; i++) {
+            for(int j = 0; j < cols; j++) {
+                matrix[i][j] = sc.nextInt();
+            }
+        }
     }
 }
