@@ -67,4 +67,12 @@ This repository is dedicated to:
 | Greedy Algorithms   | ⏳ In Progress |
 
 ---
+## 🎯 Goals
 
+- Solve DSA problems daily
+- Build strong coding fundamentals
+- Prepare for technical interviews
+- Improve coding speed and accuracy
+- Master problem-solving patterns
+
+---
