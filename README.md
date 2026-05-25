@@ -69,7 +69,7 @@ This repository is dedicated to:
 ---
 ## 🎯 Goals
 
-- Solve DSA problems daily
+- Solve DSA problems daily on Leetcode 
 - Build strong coding fundamentals
 - Prepare for technical interviews
 - Improve coding speed and accuracy
