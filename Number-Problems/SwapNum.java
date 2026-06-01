@@ -6,7 +6,12 @@ public class SwapNum{
         b = temp;
         System.out.println("After reversed = "+a + " "+b);
     }
-    
+    public static void swapNumMethod2(int a , int b){
+        a = a + b;
+        b = a - b;
+        a = a - b;
+        System.out.println("After reversed = "+a+" "+b);
+    }
     public static void main(String[] args){
        Scanner sc = new Scanner(System.in);
         System.out.print("Enter first num : ");
@@ -15,5 +20,6 @@ public class SwapNum{
         int b = sc.nextInt();
 
         swapNumMethod1(a,b);
+        swapNumMethod2(a,b);
     }
 }
