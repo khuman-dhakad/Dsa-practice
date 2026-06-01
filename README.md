@@ -1,4 +1,11 @@
-# 🚀 Data Structures & Algorithms Practice
+# 🚀 Data Structures & Algorithma Practice
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Language-Java-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Focus-DSA-success?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Learning-important?style=for-the-badge"/>
+</p>
 
 Welcome to my **DSA Practice Repository**!
 
@@ -60,4 +67,12 @@ This repository is dedicated to:
 | Greedy Algorithms   | ⏳ In Progress |
 
 ---
+## 🎯 Goals
 
+- Solve DSA problems daily on Leetcode 
+- Build strong coding fundamentals
+- Prepare for technical interviews
+- Improve coding speed and accuracy
+- Master problem-solving patterns
+
+---
