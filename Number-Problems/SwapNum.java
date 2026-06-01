@@ -12,6 +12,12 @@ public class SwapNum{
         a = a - b;
         System.out.println("After reversed = "+a+" "+b);
     }
+    public static void swapNumMethod3(int a , int b){
+        a = a ^ b;
+        b = a ^ b;
+        a = a ^ b;
+        System.out.println("After reversed = "+a+" "+b);
+    }
     public static void main(String[] args){
        Scanner sc = new Scanner(System.in);
         System.out.print("Enter first num : ");
@@ -21,5 +27,7 @@ public class SwapNum{
 
         swapNumMethod1(a,b);
         swapNumMethod2(a,b);
+        swapNumMethod3(a,b);
+        sc.close();
     }
 }
