@@ -4,13 +4,13 @@ public class SetMatrixZeroes {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-
+        // Take matrix size
         System.out.print("Enter rows: ");
         int rows = sc.nextInt();
 
         System.out.print("Enter columns: ");
         int cols = sc.nextInt();
-
+        // Create matrix and take input
         int[][] matrix = new int[rows][cols];
 
         System.out.println("Enter matrix:");
@@ -20,6 +20,7 @@ public class SetMatrixZeroes {
                 matrix[i][j] = sc.nextInt();
             }
         }
+        // Store rows and columns containing zero
         boolean[] rowZero = new boolean[rows];
         boolean[] colZero = new boolean[cols];
 
@@ -32,6 +33,7 @@ public class SetMatrixZeroes {
                 }
             }
         }
+       // Set matrix values to zero
         for(int i = 0; i < rows; i++) {
             for(int j = 0; j < cols; j++) {
 
@@ -40,6 +42,7 @@ public class SetMatrixZeroes {
                 }
             }
         }
+        // Print final matrix
         System.out.println("Final Matrix:");
 
         for(int i = 0; i < rows; i++) {
