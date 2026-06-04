@@ -45,6 +45,7 @@ This repository is dedicated to:
 * Recursion & Backtracking
 * Sorting & Searching
 * Binary Search
+* Numberical
 
 ---
 
