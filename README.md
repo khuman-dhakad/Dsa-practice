@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/Status-Learning-important?style=for-the-badge"/>
 </p>
 
-Welcome to my **DSA Practice Repository**!
+Welcome to my **DSA Daily Practice Repository**!
 
 This repository documents my journey of mastering **Data Structures and Algorithms** for coding interviews, competitive programming, and technical interviews at **top product-based companies and MNCs**.
 
@@ -45,6 +45,7 @@ This repository is dedicated to:
 * Recursion & Backtracking
 * Sorting & Searching
 * Binary Search
+* Numberical
 
 ---
 
