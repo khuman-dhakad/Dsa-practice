@@ -75,6 +75,7 @@ This repository is dedicated to:
 - Prepare for technical interviews
 - Improve coding speed and accuracy
 - Master problem-solving patterns
-- Learning patterns to solve problems 
+- Learning patterns to solve problems
+- Master Algorithmic Patterns to solve problems efficiently. 
 
 ---
