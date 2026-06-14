@@ -6,21 +6,42 @@
   <img src="https://img.shields.io/badge/Focus-DSA-success?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Status-Learning-important?style=for-the-badge"/>
 </p>
+## 🚀 Welcome to My DSA Journey
 
-Welcome to my **DSA Daily Practice Repository**!
+Welcome to my **Data Structures & Algorithms (DSA) Practice Repository**!
 
-This repository documents my journey of mastering **Data Structures and Algorithms** for coding interviews, competitive programming, and technical interviews at **top product-based companies and MNCs**.
+This repository documents my journey of learning and mastering **Data Structures and Algorithms** through consistent problem-solving and hands-on coding practice.
+
+My goal is to strengthen my understanding of core computer science concepts, improve problem-solving skills, and prepare for technical interviews at leading software companies and MNCs.
 
 ---
 
 ## 👨‍💻 About Me
 
 Hi, I'm **Khuman Dhakad** 👋
-🎓 MCA Student
-💻 Aspiring Software Developer
-🚀 Currently focused on **Java, C, and Data Structures & Algorithms**
 
-I am consistently practicing problems to strengthen my **problem-solving skills, coding efficiency, and logical thinking**.
+🎓 MCA Student
+
+💻 Aspiring Software Developer
+
+☕ Passionate about Problem Solving and Software Development
+
+🚀 Currently learning **Java, C, Data Structures & Algorithms, and Software Engineering Fundamentals**
+
+🎯 Goal: Become a skilled Software Engineer and crack technical interviews through consistent learning and practice.
+
+---
+
+### What You'll Find Here
+
+* 📚 DSA concepts and implementations
+* 🧩 Interview-focused coding problems
+* ⚡ Optimized solutions
+* 📝 Clean and well-structured code
+* 🚀 Continuous learning and progress tracking
+
+I believe that **consistency, discipline, and practice** are the keys to becoming a better programmer, and this repository reflects that journey.
+
 
 ---
 
