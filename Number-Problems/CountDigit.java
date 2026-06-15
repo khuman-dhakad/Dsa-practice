@@ -12,5 +12,8 @@ public static int countDigit(int num){
       Scanner sc = new Scanner(System.in);
       System.out.print("Enter num : ");
       int num = sc.nextInt();
+
+      int res = countDigit(num);
+      System.out.println("Count = "+res);
     }
 }
