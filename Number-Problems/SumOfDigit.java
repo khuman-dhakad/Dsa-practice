@@ -13,7 +13,8 @@ public class SumOfDigit{
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter num : ");
         int num = sc.nextInt();
-        
+        int res = sumOfDigit(num);
+        System.out.println("Sum of Digit = "+res);
 
     }
 }
