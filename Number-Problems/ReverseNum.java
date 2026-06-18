@@ -13,5 +13,9 @@ public class ReverseNum{
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number : ");
         int num = sc.nextInt();
+
+        int res = reverseNum(num);
+        System.out.print("After Revserse Number = "+res);
+        sc.close();
     }
 }
