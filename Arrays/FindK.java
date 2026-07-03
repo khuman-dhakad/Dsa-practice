@@ -1,28 +1,40 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class FindK {
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
 
+        // Ask the user how many elements they want to enter
+        System.out.print("Enter number of elements: ");
         int n = sc.nextInt();
-        int[] nums = new int[n];
 
-        for (int i = 0; i < n; i++) {
-            nums[i] = sc.nextInt();
-        }
-
-        int k = sc.nextInt();
-
-        if (k < 1 || k > n) {
-            System.out.println("Invalid value of k");
+        if (n <= 0) {
+            System.out.println("Array cannot be empty.");
             sc.close();
             return;
         }
 
-        Arrays.sort(nums);
+        // Create an array of the given size
+        int[] arr = new int[n];
 
-        System.out.println("The " + k + "th largest element is: " + nums[n - k]);
+
+        // Store each element in the array
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+
+        int largest = arr[0];
+
+        // Compare the remaining elements with the current largest
+        for (int i = 1; i < n; i++) {
+            if (arr[i] > largest) {
+                largest = arr[i];
+            }
+        }
+
+        // Print the final answer
+        System.out.println("Largest element is: " + largest);
 
         sc.close();
     }
