@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class FindK {
@@ -11,9 +12,11 @@ public class FindK {
             nums[i] = sc.nextInt();
         }
 
-        System.out.println("Array Elements:");
-        for (int num : nums) {
-            System.out.print(num + " ");
+        Arrays.sort(nums);
+
+        System.out.println("Sorted Array:");
+        for (int i = n - 1; i >= 0; i--) {
+            System.out.print(nums[i] + " ");
         }
 
         sc.close();
