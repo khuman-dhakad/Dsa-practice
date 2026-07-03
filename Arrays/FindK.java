@@ -14,9 +14,15 @@ public class Main {
 
         int k = sc.nextInt();
 
+        if (k < 1 || k > n) {
+            System.out.println("Invalid value of k");
+            sc.close();
+            return;
+        }
+
         Arrays.sort(nums);
 
-        System.out.println(nums[n - k]);
+        System.out.println("The " + k + "th largest element is: " + nums[n - k]);
 
         sc.close();
     }
