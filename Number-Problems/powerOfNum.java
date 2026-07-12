@@ -4,8 +4,8 @@
         double exponent = 3.0;
         
         // Calculating the power using Math.pow
-        double result = Math.pow(base, exponent);
+        double res = Math.pow(base, exponent);
         
-        System.out.println(base + " raised to the power of " + exponent + " is: " + result);
+        System.out.println(base + " raised to the power of " + exponent + " is: " + res);
     }
 }
