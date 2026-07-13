@@ -1,11 +1,19 @@
- class PowerOfNum {
+import java.util.Scanner;
+
+class PowerOfNum {
     public static void main(String[] args) {
-        double base = 5.0;
-        double exponent = 3.0;
-        
-        // Calculating the power using Math.pow
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the base number: ");
+        double base = scanner.nextDouble();
+
+        System.out.print("Enter the exponent: ");
+        double exponent = scanner.nextDouble();
+
         double res = Math.pow(base, exponent);
         
         System.out.println(base + " raised to the power of " + exponent + " is: " + res);
+
+        scanner.close();
     }
 }
