@@ -11,3 +11,12 @@ class Solution {
 
             digits[i] = 0;
         }
+                // If all digits were 9
+        int[] result = new int[digits.length + 1];
+
+        // First digit becomes 1
+        result[0] = 1;
+
+        return result;
+    }
+}
