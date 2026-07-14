@@ -1,5 +1,8 @@
-class Solution {
-    public int[] plusOne(int[] digits) {
+import java.util.Arrays;
+
+public class PlusOne {
+
+    public static int[] plusOne(int[] digits) {
 
         // Traverse from the last digit
         for (int i = digits.length - 1; i >= 0; i--) {
@@ -11,12 +14,20 @@ class Solution {
 
             digits[i] = 0;
         }
-                // If all digits were 9
-        int[] result = new int[digits.length + 1];
 
-        // First digit becomes 1
+        // If all digits are 9
+        int[] result = new int[digits.length + 1];
         result[0] = 1;
 
         return result;
+    }
+
+    public static void main(String[] args) {
+
+        int[] digits = {1, 2, 3};
+
+        int[] answer = plusOne(digits);
+
+        System.out.println("Output: " + Arrays.toString(answer));
     }
 }
