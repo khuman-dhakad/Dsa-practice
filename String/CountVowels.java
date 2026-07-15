@@ -16,6 +16,15 @@ public class CountVowels {
 
 class VowelCounter {
     public int countVowels(String str) {
-        return 0; // Stub implementation
+        int count = 0;
+        String lowerStr = str.toLowerCase();
+        
+        for (int i = 0; i < lowerStr.length(); i++) {
+            char ch = lowerStr.charAt(i);
+            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+                count++;
+            }
+        }
+        return count;
     }
 }
