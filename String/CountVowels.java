@@ -6,7 +6,16 @@ public class CountVowels {
         System.out.print("Enter a string: ");
         String input = scanner.nextLine();
         
-        System.out.println("Input received: " + input);
+        VowelCounter counter = new VowelCounter();
+        int result = counter.countVowels(input);
+        
+        System.out.println("Number of vowels: " + result);
         scanner.close();
+    }
+}
+
+class VowelCounter {
+    public int countVowels(String str) {
+        return 0; // Stub implementation
     }
 }
