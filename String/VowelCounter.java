@@ -17,7 +17,8 @@ public class VowelCounter {
         System.out.print("Enter a string: ");
         String userInput = scanner.nextLine();
         
-        System.out.println("Input received: " + userInput);
+        // Connected the method here
+        System.out.println("Number of vowels: " + countVowels(userInput));
         scanner.close();
     }
 }
