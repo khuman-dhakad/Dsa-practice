@@ -1,15 +1,22 @@
 import java.util.Arrays;
+import java.util.HashMap;
 
 class Solution {
 
     public int[] intersect(int[] nums1, int[] nums2) {
-        // TODO: Implement intersection logic
+
+        HashMap<Integer, Integer> map = new HashMap<>();
+
+        for (int num : nums1) {
+            map.put(num, map.getOrDefault(num, 0) + 1);
+        }
+
         return new int[0];
     }
 
 }
 
-public class  IntersectionOfTwoArrayII{
+public class IntersectionOfTwoArrayII {
 
     public static void main(String[] args) {
 
