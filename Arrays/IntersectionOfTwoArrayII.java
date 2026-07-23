@@ -1,5 +1,7 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 
 class Solution {
 
@@ -9,6 +11,20 @@ class Solution {
 
         for (int num : nums1) {
             map.put(num, map.getOrDefault(num, 0) + 1);
+        }
+
+        List<Integer> list = new ArrayList<>();
+
+        for (int num : nums2) {
+
+            if (map.containsKey(num) && map.get(num) > 0) {
+
+                list.add(num);
+
+                map.put(num, map.get(num) - 1);
+
+            }
+
         }
 
         return new int[0];
