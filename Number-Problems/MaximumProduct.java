@@ -5,6 +5,7 @@ public class MaximumProduct {
             throw new IllegalArgumentException("At least three numbers are required");
         }
 
+        // Keep the three largest and two smallest values; both groups can form the best product
         int largest = Integer.MIN_VALUE;
         int secondLargest = Integer.MIN_VALUE;
         int thirdLargest = Integer.MIN_VALUE;
@@ -31,6 +32,7 @@ public class MaximumProduct {
             }
         }
 
+        // Two negative values can produce a larger result than the three largest values
         return Math.max(largest * secondLargest * thirdLargest,
                 largest * smallest * secondSmallest);
     }
