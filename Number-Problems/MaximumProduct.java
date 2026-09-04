@@ -42,5 +42,11 @@ public class MaximumProduct {
 
         int[] test2 = {-10, -10, 1, 2, 3};
         System.out.println("Product for [-10, -10, 1, 2, 3]: " + solver.maximumProduct(test2));
+
+        int[] test3 = {-5, -4, -3, -2};
+        System.out.println("Product for [-5, -4, -3, -2]: " + solver.maximumProduct(test3));
+
+        int[] test4 = {2, 2, 2, 5};
+        System.out.println("Product for [2, 2, 2, 5]: " + solver.maximumProduct(test4));
     }
 }
