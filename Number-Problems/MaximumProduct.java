@@ -4,6 +4,8 @@ public class MaximumProduct {
         int largest = Integer.MIN_VALUE;
         int secondLargest = Integer.MIN_VALUE;
         int thirdLargest = Integer.MIN_VALUE;
+        int smallest = Integer.MAX_VALUE;
+        int secondSmallest = Integer.MAX_VALUE;
 
         for (int number : nums) {
             if (number >= largest) {
@@ -16,9 +18,17 @@ public class MaximumProduct {
             } else if (number > thirdLargest) {
                 thirdLargest = number;
             }
+
+            if (number <= smallest) {
+                secondSmallest = smallest;
+                smallest = number;
+            } else if (number < secondSmallest) {
+                secondSmallest = number;
+            }
         }
 
-        return largest * secondLargest * thirdLargest;
+        return Math.max(largest * secondLargest * thirdLargest,
+                largest * smallest * secondSmallest);
     }
 
     public static void main(String[] args) {
