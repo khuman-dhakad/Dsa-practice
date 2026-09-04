@@ -1,6 +1,10 @@
 public class MaximumProduct {
 
     public int maximumProduct(int[] nums) {
+        if (nums == null || nums.length < 3) {
+            throw new IllegalArgumentException("At least three numbers are required");
+        }
+
         int largest = Integer.MIN_VALUE;
         int secondLargest = Integer.MIN_VALUE;
         int thirdLargest = Integer.MIN_VALUE;
