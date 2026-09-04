@@ -38,9 +38,9 @@ public class MaximumProduct {
     public static void main(String[] args) {
         MaximumProduct solver = new MaximumProduct();
         int[] test1 = {1, 2, 3, 4};
-        System.out.println(solver.maximumProduct(test1));
+        System.out.println("Product for [1, 2, 3, 4]: " + solver.maximumProduct(test1));
 
         int[] test2 = {-10, -10, 1, 2, 3};
-        System.out.println(solver.maximumProduct(test2));
+        System.out.println("Product for [-10, -10, 1, 2, 3]: " + solver.maximumProduct(test2));
     }
 }
