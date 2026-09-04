@@ -35,5 +35,8 @@ public class MaximumProduct {
         MaximumProduct solver = new MaximumProduct();
         int[] test1 = {1, 2, 3, 4};
         System.out.println(solver.maximumProduct(test1));
+
+        int[] test2 = {-10, -10, 1, 2, 3};
+        System.out.println(solver.maximumProduct(test2));
     }
 }
