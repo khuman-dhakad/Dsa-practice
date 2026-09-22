@@ -22,7 +22,7 @@ Hi, I'm **Khuman Dhakad** 👋
 
 🎓 MCA Student
 
-💻 Aspiring Software Developer
+💻  Software Developer
 
 ☕ Passionate about Problem Solving and Software Development
 
