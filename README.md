@@ -28,7 +28,7 @@ Hi, I'm **Khuman Dhakad** 👋
 
 🚀 Currently learning **Java, C, Data Structures & Algorithms, and Software Engineering Fundamentals**
 
-🎯 Goal: Become a skilled Software Engineer and crack technical interviews through consistent learning and practice.
+🎯 Goal: Become a skilled Software Engineer and crack technical interviews through consistent learning and DSA practice.
 - Solve DSA problems daily on Leetcode 
 - Build strong coding fundamentals
 - Prepare for technical interviews
