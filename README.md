@@ -1,4 +1,4 @@
-# 🚀 Data Structures & Algorithma Practice
+# 🚀 Data Structures & Algorithma Problem Practice
 
 <p align="center">
   <img src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge"/>
