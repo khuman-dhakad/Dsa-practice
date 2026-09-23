@@ -45,7 +45,7 @@ Hi, I'm **Khuman Dhakad** 👋
 * 🧩 Interview-focused coding problems
 * ⚡ Optimized solutions
 * 📝 Clean and well-structured code
-* 🚀 Continuous learning and progress tracking
+* 🚀 Continuous learning and my progress tracking
 
 I believe that **consistency, discipline, and practice** are the keys to becoming a better programmer, and this repository reflects that journey.
 
