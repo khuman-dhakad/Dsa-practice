@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/Focus-DSA-success?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Status-Learning-important?style=for-the-badge"/>
 </p>
-## 🚀 Welcome to My DSA Journey
+# 🚀 Welcome to My DSA Journey
 
 Welcome to my **Data Structures & Algorithms (DSA) Practice Repository**!
 
