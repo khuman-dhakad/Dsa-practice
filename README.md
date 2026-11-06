@@ -83,5 +83,4 @@ This repository is dedicated to:
 | Topic               | Status        |
 | ------------------- | ------------- |
 | Arrays              | ✅ Done        |
-| Strings             | ✅ Done        |
-| Recursion           | ✅ Done        
+| Strings             | ✅ Done        
