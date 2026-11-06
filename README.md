@@ -84,16 +84,4 @@ This repository is dedicated to:
 | ------------------- | ------------- |
 | Arrays              | ✅ Done        |
 | Strings             | ✅ Done        |
-| Recursion           | ✅ Done        |
-| Linked List         | ⏳ In Progress |
-| Stack               | ⏳ In Progress |
-| Queue               | ⏳ In Progress |
-| Searching           | ⏳ In Progress |
-| Sorting             | ⏳ In Progress |
-| Binary Search       | ⏳ In Progress |
-| Trees               | ⏳ In Progress |
-| Graphs              | ⏳ In Progress |
-| Dynamic Programming | ⏳ In Progress |
-| Greedy Algorithms   | ⏳ In Progress |
-
----
+| Recursion           | ✅ Done        
